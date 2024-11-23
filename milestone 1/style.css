@@ -1,0 +1,371 @@
+body {
+    padding: 20px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    width: 1250px;
+    /* background-color: darkslategray; */
+}
+.resume-container {
+    display: flex;
+    background-color:  #2c2c2c;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.left.section {
+    background-color:  #2c2c2c;
+    color: #ccc;
+    padding: 20px;
+    width: 126%;
+    text-align: center;
+    border-right: 5px solid lightgray;
+    border-radius: 10px;
+}
+.profile-picture {
+    width: 130px;
+    height: 130px;
+    margin-left: 20px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px white;
+}
+h3 {
+    font-size: 20px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color:  white;
+    border-radius: 10px;
+    box-shadow: 0 0 8px white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-bottom: 2px solid #ffcc00; /* Optional: Underline style */
+
+}
+#certification h3 {
+    text-align: center;
+    border-bottom: 2px solid #ffcc00; /* Optional: Underline style */
+    color: white;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#certification ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#certification li {
+    margin-bottom: 15px;
+}
+
+#certification li b {
+    font-size: 18px;
+    color: #ddd;
+}
+
+#certification p {
+    margin: 5px 0 0 20px; /* Adjust left margin for proper alignment */
+    color: #ccc; /* Optional: For lighter text */
+}
+
+/* #certification li{
+    margin-right: 150px;
+} */
+/* ..........Right section........ */
+.right-section h3{
+    width: 330px;
+    display: flex;
+    height: 10px;
+    justify-content: center;
+    border-bottom: 2px solid #ffcc00; /* Optional: Underline style */
+    text-align: center;
+    margin-left: 145px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.right-section p{
+    color: #ccc;
+    text-align: center;
+    padding: 80px;
+    margin-top: -90px;
+
+}
+
+.personal-info-section {
+    width: 400px;
+    margin: 50px auto;
+    /* background:  #422e2e; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    border-radius: 8px;
+    padding: 20px;
+    margin-left: 80px;
+}
+
+.personal-info-section h3 
+/* Container ka style */ {
+    display: flex; /* Flexbox enable karna */
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    /* height: 200px; Box ka height (adjust karein as needed) */
+    background-color: #333; /* Background color (optional) */
+    margin-top: 0; /* Agar margin adjust karna ho */
+    margin-left: 50px;
+    margin-top: -130px;
+    padding: 11px;
+}
+
+/* Heading ka style */
+.heading {
+    border-bottom: 2px solid #ffcc00; /* Underline style */
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+.info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.info-item i {
+    font-size: 20px;
+    color: #6b6c6e;
+    margin-right: 15px;
+    width: 30px;
+    text-align: center;
+}
+
+.info-item span {
+    font-size: 16px;
+    color: #555;
+}
+
+.info-item span strong {
+    font-weight: bold;
+}
+
+.info-item span.detail {
+    text-transform: lowercase; /* For making text lowercase */
+}
+/* General Section Styling */
+#education {
+    max-width: 700px; /* Restrict section width for readability */
+    margin: 30px auto; /* Centers the section vertically and horizontally */
+    padding: 20px; /* Adds space inside the section */
+    border-radius: 10px; /* Optional: Rounded corners */
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        color: white; /* Text color */
+        max-height:150px ;
+        
+    }
+
+
+/* Section Heading */
+#education h3 {
+    text-align: center;
+    font-size: 20px;
+    justify-content: center;
+    margin-bottom: 20px; /* Space below the heading */
+    padding-bottom: 15px; /* Adds padding below the heading */
+    border-bottom: 2px solid #ffcc00; /* Optional: Underline style */
+    margin-left: 125px;
+        margin-top: -85px;
+        padding-top: 10px;
+}
+
+/* List Styling */
+#education ul {
+    list-style-type: none; /* Removes default bullet points */
+    padding: 0; /* No extra padding */
+    margin: 0; /* Aligns with parent */
+    margin-left: 140px;
+}
+
+#education li {
+    margin-bottom: 2    0px; /* Adds space between list items */
+    line-height: 1.6; /* Improves readability */
+}
+
+/* Text Styling */
+#education li b {
+    font-size: 18px; /* Highlighted text size */
+    color: #ccc; /* Optional: Highlighted color for titles */
+}
+
+#education li p {
+    margin: 5px 0 0 20px; /* Adds space between title and description */
+    color: #ccc; /* Subtle color for details */
+}
+/* Skills Section Styling */
+/* Skills Section Styling */
+.skills-section {
+    background-color: #f4f4f9;
+    padding: 50px 20px;
+    text-align: center;
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth effect */
+}
+
+.skills-heading {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ffcc00;
+    display: inline-block;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill-item {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.skill-item:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Toggle Button Styling */
+.toggle-button {
+    margin: 20px auto;
+    display: block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.toggle-button:hover {
+    background-color: #555;
+}
+
+/* Default styles (already provided) will apply for larger screens */
+
+/* For tablets (width <= 1024px) */
+@media (max-width: 1024px) {
+    body {
+        width: 90%; /* Reduce fixed width for smaller screens */
+        padding: 10px; /* Adjust padding */
+    }
+
+    .resume-container {
+        flex-direction: column; /* Stack sections vertically */
+        width: 100%; /* Full width */
+    }
+
+    .left.section {
+        width: 100%; /* Full width */
+        border-right: none; /* Remove border on smaller screens */
+        text-align: center;
+    }
+
+    .profile-picture {
+        width: 100px; /* Smaller profile picture */
+        height: 100px;
+    }
+
+    .right-section h3 {
+        margin-left: 0; /* Center-align heading */
+        width: auto;
+    }
+
+    .personal-info-section {
+        width: 100%; /* Full width */
+        margin-left: 0;
+        margin-top: 20px; /* Add spacing between stacked sections */
+    }
+}
+
+/* For mobile devices (width <= 768px) */
+@media (max-width: 768px) {
+    body {
+        padding: 5px; /* Less padding */
+    }
+
+    .resume-container {
+        width: 100%; /* Use full screen width */
+        box-shadow: none; /* Optional: Remove shadow for simpler design */
+    }
+
+    .left.section {
+        padding: 10px; /* Less padding for compact layout */
+    }
+
+    .profile-picture {
+        width: 80px; /* Even smaller profile picture */
+        height: 80px;
+    }
+
+    h3 {
+        font-size: 16px; /* Smaller font for headings */
+    }
+
+    .skills-container {
+        flex-direction: column; /* Stack skill items vertically */
+        gap: 10px; /* Reduce spacing */
+    }
+
+    .skill-item {
+        padding: 10px 20px; /* Compact skill boxes */
+        font-size: 1rem;
+    }
+
+    #education {
+        max-width: 90%; /* Adjust section width */
+        margin-left: 0; /* Center-align */
+        padding: 10px; /* Compact padding */
+    }
+
+    #education h3 {
+        margin-left: 0; /* Center heading */
+    }
+
+    .toggle-button {
+        width: 100%; /* Full width for easier tapping */
+        padding: 15px; /* Larger button for touch devices */
+    }
+}
+
+/* For small mobile devices (width <= 480px) */
+@media (max-width: 480px) {
+    .skills-heading {
+        font-size: 1.5rem; /* Smaller skill heading */
+    }
+
+    .skill-item {
+        font-size: 0.9rem; /* Smaller text for skill items */
+        padding: 8px 16px; /* Adjust padding */
+    }
+
+    .info-item span {
+        font-size: 14px; /* Reduce font size for text */
+    }
+
+    #education li b {
+        font-size: 16px; /* Adjust highlighted text size */
+    }
+
+    #education li p {
+        margin: 5px 0; /* Compact details */
+    }
+}
